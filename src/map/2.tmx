@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="5" height="4" tilewidth="24" tileheight="24">
+ <properties>
+  <property name="allowed" value="1,2,8"/>
+  <property name="finish" value="2,2"/>
+  <property name="start" value="2,1"/>
+ </properties>
+ <tileset firstgid="1" source="4way.tsx"/>
+ <layer name="Kachelebene 1" width="5" height="4">
+  <data encoding="csv">
+0,0,0,0,0,
+0,0,1,0,0,
+0,6,16,6,0,
+0,0,11,0,0
+</data>
+ </layer>
+</map>
